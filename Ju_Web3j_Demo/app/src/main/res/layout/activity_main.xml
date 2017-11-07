@@ -6,15 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="juzix.com.ju_web3j_demo.MainActivity">
+    tools:context="juzix.com.web3jdemo.MainActivity">
 
     <TextView
         android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity="center"
-        android:text="注册一个钱包"
-        android:onClick="register"
+        android:text="钱包用户入口"
+        android:onClick="toWallet"
         android:textColor="#ffffff"
         android:background="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,8 +26,8 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity="center"
-        android:text="钱包登录"
-        android:onClick="login"
+        android:text="Ukey用户入口"
+        android:onClick="toUkey"
         android:textColor="#ffffff"
         android:background="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"

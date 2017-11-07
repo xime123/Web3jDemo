@@ -1,4 +1,4 @@
-package juzix.com.ju_web3j_demo;
+package juzix.com.web3jdemo;
 
 import org.junit.Test;
 

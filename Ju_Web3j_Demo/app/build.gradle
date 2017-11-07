@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "juzix.com.ju_web3j_demo"
+        applicationId "juzix.com.web3jdemo"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
@@ -26,7 +26,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     compile 'com.yanzhenjie:permission:1.0.8'
-    implementation files('libs/juzix_web3j_for_android.jar')
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
     compile 'cz.msebera.android:httpclient:4.4.1.2',
             'com.fasterxml.jackson.core:jackson-databind:2.8.5',
@@ -35,4 +34,6 @@ dependencies {
             'com.lambdaworks:scrypt:1.4.0',
             'com.squareup:javapoet:1.7.0',
             'io.reactivex:rxjava:1. 2.4'
+    implementation files('libs/sm9.jar')
+    implementation files('libs/web3j.jar')
 }

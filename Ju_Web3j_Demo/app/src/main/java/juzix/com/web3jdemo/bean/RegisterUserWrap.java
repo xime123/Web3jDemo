@@ -1,4 +1,4 @@
-package juzix.com.ju_web3j_demo;
+package juzix.com.web3jdemo.bean;
 
 /**
  * Created by 徐敏 on 2017/8/23.

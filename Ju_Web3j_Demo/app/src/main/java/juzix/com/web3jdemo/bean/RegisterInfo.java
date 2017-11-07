@@ -1,4 +1,4 @@
-package juzix.com.ju_web3j_demo;
+package juzix.com.web3jdemo.bean;
 
 /**
  * 向底层链注册用户信息，可根据需求更改字段

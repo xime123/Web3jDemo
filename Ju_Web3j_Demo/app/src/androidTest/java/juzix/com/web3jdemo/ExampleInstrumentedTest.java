@@ -1,4 +1,4 @@
-package juzix.com.ju_web3j_demo;
+package juzix.com.web3jdemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
